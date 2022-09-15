@@ -2,9 +2,6 @@ from flask import Flask, request, jsonify,render_template
 from  hpp_app import functions
 import config
 app = Flask(__name__)
-import logging
-import project_db
-
 
 
 
