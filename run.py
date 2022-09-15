@@ -5,10 +5,7 @@ app = Flask(__name__)
 import logging
 import project_db
 
-################ Root API ########################################
-@app.route('/')
-def index():
-   return render_template('home.html')
+
 
 
 
